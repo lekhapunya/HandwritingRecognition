@@ -20,7 +20,7 @@
 ###### is not working for you when you are trying to install tensorflow in a separate environment, you can use pip to install tensorflow in the base environment and the implementation will still work
 ###### 3. If you get a ModuleNotFoundError or ImportError such as:
 ###### ModuleNotFoundError: No module named 'keras_preprocessing'
-###### it is likely that you simply have not installed the package. Use conda or pip commands to install the package.
+###### it is likely that the package is not installed. Use conda or pip commands to install the package.
 ###### 4. If you encounter the error:
 ###### AttributeError: module 'tensorflow.python.pywrap_tensorflow' has no attribute 'TFE_DEVICE_PLACEMENT_EXPLICIT'
 ###### You may have missing dependencies. I fixed this error by installing the missing dependencies that the Spyder application pointed out for me. Whenever I opened the application, a pop-up appeared that highlighted the dependencies I needed. 
