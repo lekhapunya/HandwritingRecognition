@@ -1,10 +1,12 @@
 # HandwritingRecognition
 
 ## Project Description
-###### I implemented a model that is able to take in an image of a word in my own personal handwriting, and output the model's prediction of the word. 
+###### The model is able to take in an image of a word in my own personal handwriting, and output the model's prediction of the word. 
 ###### I followed the implementation specified in this article: https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5
 ###### Currently, the model is able to take in an image of one word with no outside spaces. The contrast, word line width, and size of the picture is formatted within Model.py to match the training set.
 ###### The model is trained on the IAM dataset.
+
+## Purpose: I want to use this model to be able to transcribe a full page of student notes on paper into a computer document. 
 
 ## Software 
 ###### Mac OS - Version: 10.15.2
