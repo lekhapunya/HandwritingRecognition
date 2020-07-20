@@ -17,14 +17,14 @@
 ## FAQ (Errors I Encountered)
 ###### 1. If you are using Homebrew to download OpenCV or TensorFlow and are running into many problems during the process, I recommend using Anaconda to install these two packages instead. It was a much simpler process and was successful for me. 
 ###### 2. If the command:
-######      conda activate (env)
+###### /tconda activate (env)
 ###### is not working for you when you are trying to install tensorflow in a separate environment, you can use pip to install tensorflow in the base environment and the implementation will still work
 ###### 3. If you get a ModuleNotFoundError or ImportError such as:
-######      ModuleNotFoundError: No module named 'keras_preprocessing'
+###### /tModuleNotFoundError: No module named 'keras_preprocessing'
 ###### it is likely that the package is not installed. Use conda or pip commands to install the package.
 ###### 4. If you encounter the error:
-######      AttributeError: module 'tensorflow.python.pywrap_tensorflow' has no attribute 'TFE_DEVICE_PLACEMENT_EXPLICIT'
+###### /tAttributeError: module 'tensorflow.python.pywrap_tensorflow' has no attribute 'TFE_DEVICE_PLACEMENT_EXPLICIT'
 ###### you may have missing dependencies. I fixed this error by installing the missing dependencies that the Spyder application pointed out for me. Whenever I opened the application, a pop-up appeared that highlighted the dependencies I needed. 
 ###### 5. If you encounter the error:
-######      ImportError: cannot import name 'descriptor' from 'google.protobuf' (unknown location)
+###### /tImportError: cannot import name 'descriptor' from 'google.protobuf' (unknown location)
 ###### your tensorflow and protobuf versions may not be compatible. You should uninstall both tensorflow and protobuf from anaconda. Then, reinstall tensorflow version 1.13-1.15. Next, reinstall protobuf. 
