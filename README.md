@@ -1,12 +1,11 @@
 # HandwritingRecognition
 
 ## Project Description
+###### Purpose: I want to use this model to be able to transcribe a full page of student notes on paper into a computer document. 
 ###### The model is able to take in an image of a word in my own personal handwriting, and output the model's prediction of the word. 
 ###### I followed the implementation specified in this article: https://towardsdatascience.com/build-a-handwritten-text-recognition-system-using-tensorflow-2326a3487cd5
 ###### Currently, the model is able to take in an image of one word with no outside spaces. The contrast, word line width, and size of the picture is formatted within Model.py to match the training set.
 ###### The model is trained on the IAM dataset.
-
-## Purpose: I want to use this model to be able to transcribe a full page of student notes on paper into a computer document. 
 
 ## Software 
 ###### Mac OS - Version: 10.15.2
@@ -25,7 +24,7 @@
 ###### it is likely that the package is not installed. Use conda or pip commands to install the package.
 ###### 4. If you encounter the error:
 ###### AttributeError: module 'tensorflow.python.pywrap_tensorflow' has no attribute 'TFE_DEVICE_PLACEMENT_EXPLICIT'
-###### You may have missing dependencies. I fixed this error by installing the missing dependencies that the Spyder application pointed out for me. Whenever I opened the application, a pop-up appeared that highlighted the dependencies I needed. 
+###### you may have missing dependencies. I fixed this error by installing the missing dependencies that the Spyder application pointed out for me. Whenever I opened the application, a pop-up appeared that highlighted the dependencies I needed. 
 ###### 5. If you encounter the error:
 ###### ImportError: cannot import name 'descriptor' from 'google.protobuf' (unknown location)
 ###### your tensorflow and protobuf versions may not be compatible. You should uninstall both tensorflow and protobuf from anaconda. Then, reinstall tensorflow version 1.13-1.15. Next, reinstall protobuf. 
